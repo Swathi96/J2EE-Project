@@ -1,0 +1,100 @@
+@CHARSET "ISO-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Vibur);
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: arial;
+}
+
+body {
+  background-image:url("../images/chat.jpg");
+}
+
+h1 {
+  color: #ccc;
+  text-align: center;
+  font-family: 'Vibur', cursive;
+  font-size: 50px;
+}
+
+.login-form {
+  width: 350px;
+  padding: 40px 30px;
+  background: #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+ 
+}
+
+.form-control {
+  width: 100%;
+  height: 50px;
+ 
+  border: none;
+  padding: 7px 17px 9px 23px;
+  background: #fff;
+  color: #666;
+  border: 2px solid #ddd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.form-control:focus, .form-control:focus + .fa {
+  border-color: #10CE88;
+  color: #10CE88;
+}
+
+.form-group .fa {
+  position: absolute;
+  left: 6px;
+  top: 14px;
+  padding: 2px;
+  color: #999;
+}
+.formb button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF77;
+  width: 50%;
+  float:right;
+  border: 10;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.formb .enter {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF77;
+  width: 50%;
+  float:left;
+  border: 10;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+

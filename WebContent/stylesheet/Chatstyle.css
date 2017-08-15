@@ -1,0 +1,93 @@
+@CHARSET "ISO-8859-1";
+
+#row {
+  width: 624px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  padding:0.5px;
+  margin-right: 25%;
+    margin-left:25%;
+  horizontal-align:middle;
+  overflow: hidden;
+}
+#container1{
+	font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+border: solid 2px #ccc;
+  width: 320px;
+  height:533px;
+  float:left;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+#namecontainer {
+	border: solid 1px #ccc;
+  padding: 5px;
+  color:black;
+  height:7%;
+  background:#FB8C00;
+}
+#chatcontainer {
+  height: 450px;
+  overflow: auto;
+  color:gray;
+  padding-top:5px;
+  
+  background: #FFE0B2;
+  
+}
+
+#online{
+	
+  float:left;
+font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+border: solid 2px #ccc;
+  width: 300px;
+  float:left;
+ 
+   height:533.8;
+  background:white;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;	
+}
+#type{}
+#text {
+  float:left;
+  width: 90%;
+height:40px;
+  font-size: 16px;
+  background: white;
+}
+#pp{
+	
+  width:100%;
+  height:44px;
+  border:solid 1px #FFB74D;
+  background:#FFAB40;
+}
+#onlinecontainer {
+	border: solid 1px #ccc;
+  padding: 5px;
+  color:black;
+  height:5%;
+  background:#FF7043;
+}
+#button1{
+	
+	 width: 10%;
+	 height:40px;
+  float:right;
+}
+.glyphicon {
+
+	
+ background-position: center;
+  
+}
